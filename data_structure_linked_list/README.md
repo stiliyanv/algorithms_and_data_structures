@@ -1,8 +1,10 @@
 # Linked List
 
-A **Linked List** is a collection of nodes, each node containing data, and pointers to the previous and next node in the collection.
+A **Linked List** is a collection of nodes where each node containing data, and pointers to the previous and next node in the collection.
 
 > The following implementation is of **doubly linked list**. The main difference between **singly linked list** and **doubly linked list** is the ability to traverse. In a **single linked list**, node only points towards next node, and there is no pointer to previous node, which means you can not traverse back on a singly linked list.
+
+## Implementation
 
 ```swift
 // Node of a linked list
@@ -116,6 +118,8 @@ public class LinkedList<T> {
     }
 }
 ```
+
+## Usage
 
 ```swift
 let numbers = LinkedList<Int>()
