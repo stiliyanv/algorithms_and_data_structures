@@ -7,7 +7,7 @@ For example: if you have the following array: `[0, 1, 3, 4, 5, 8, 9, 10, 12, 15,
 ## Implementation
 
 ```swift
-func binarySearch(searchValue: Int, array: [Int]) -> Int? {
+func binarySearch(searchValue: Int, array: [Int]) -> Int {
     
     var leftIndex = 0
     var rightIndex = array.count - 1
@@ -42,10 +42,10 @@ func binarySearch(searchValue: Int, array: [Int]) -> Int? {
 ```swift
 var array = [0, 1, 3, 4, 5, 8, 9, 10, 12, 15, 17, 19, 20, 23, 27, 28, 31]
 
-print(binarySearch(searchValue: 9, array: array)!)  // 6
-print(binarySearch(searchValue: 14, array: array)!) // -1
-print(binarySearch(searchValue: 17, array: array)!) // 10
-print(binarySearch(searchValue: 31, array: array)!) // 16
-print(binarySearch(searchValue: 99, array: array)!) // -1
+print(binarySearch(searchValue: 9, array: array))  // 6
+print(binarySearch(searchValue: 14, array: array)) // -1
+print(binarySearch(searchValue: 17, array: array)) // 10
+print(binarySearch(searchValue: 31, array: array)) // 16
+print(binarySearch(searchValue: 99, array: array)) // -1
 
 ```
