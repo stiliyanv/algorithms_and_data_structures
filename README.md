@@ -6,3 +6,4 @@
 ## Algorithms
 - [Binary Search](/algorithms/binary_search.md)
 - [Linear Search](/algorithms/linear_search.md)
+- [Merge Sort](/algorithms/merge_sort.md)
