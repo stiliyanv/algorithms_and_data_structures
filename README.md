@@ -1,7 +1,7 @@
 
 ## Data Structures
-- [Linked List](/date_structure/linked_list/README.md)
-- [Stack](/date_structure/stack/README.md)
+- [Linked List](/data_structures/linked_list.md)
+- [Stack](/data_structures/stack.md)
 
 ## Algorithms
-- [Binary Search](/algorithms/binary_search/README.md)
+- [Binary Search](/algorithms/binary_search.md)
