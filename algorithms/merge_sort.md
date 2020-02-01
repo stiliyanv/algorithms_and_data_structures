@@ -49,8 +49,6 @@ func merge(left: [Int], right: [Int]) -> [Int] {
 
 ## Usage
 
-If you execute the following code:
-
 ```swift
 let array1 = [27, 73, 18, 41, 99, 48, 84, 58, 71, 99]
 let array2 = [17, 16, 14, 8, 8, 6, 12]
